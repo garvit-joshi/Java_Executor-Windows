@@ -1,7 +1,7 @@
 @ECHO OFF
 ECHO                                        WELCOME TO EXECUTOR
 ECHO                                                         -Garvit Joshi
-cd C:\Users\Garvit Joshi\Documents\JavaProgs
+cd C:\JavaProgs
 :first
 ECHO Name Of Java Executable Files Present In Folder Are:
 python Filename_java.py
