@@ -17,4 +17,4 @@ The Program Works With two Python compiled Files(Filename_class.py and Filename_
 7.Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory.
 8.The Files Are Designed In such a way that the default directory in which they search for java programs is('C:\JavaProgs'), just change the default directory in all three programs to folder where you keep your files.
 
-## HAPPY Compiling
+## Happy Compiling
