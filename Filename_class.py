@@ -1,5 +1,7 @@
 import glob, os
-os.chdir("C:/JavaProgs")                              #Default Directory
+import sys
+a=sys.path
+os.chdir(a[0])
 file1=open("List.txt","a")
 i=1
 for file in glob.glob("*.class"):
