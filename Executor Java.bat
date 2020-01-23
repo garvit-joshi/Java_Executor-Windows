@@ -1,15 +1,16 @@
 @ECHO OFF
 ECHO                                        WELCOME TO EXECUTOR
-ECHO                                                         -Garvit Joshi
-cd C:\JavaProgs
+ECHO                                                         -Garvit Joshi(garvitjoshi9@gmail.com)
+ECHO                                                          USER:%USERNAME%
+cd %cd% 
 :first
 ECHO Name Of Java Executable Files Present In Folder Are:
 python Filename_java.py
-set /p "input=>Enter The File You Want To Execute:"
+set /p "input=Enter The File You Want To Execute:"
 javac %input%.java
 ECHO Name Of Python Executable Class Present In Folder Are:
 python Filename_class.py
-set /p "input=>Enter The Class You Want To Run:"
+set /p "input=Enter The Class You Want To Run:"
 ECHO ===============================
 ECHO OUTPUT:
 ECHO ===============================
