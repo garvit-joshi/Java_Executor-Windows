@@ -1,6 +1,6 @@
 # Java_Executor
 A Simple Java Executor For Making .java Files Compiled And Interpret .class Files.
-When I Was New To Java I Had Difficulty in opening Command Prompt, Going To Directory And Then Compiling My Newly Made Files.So, I Created This Batch File Program. It Simply Goes To The Directory Specified ( By Default:"C:\JavaProgs" ) And Gives A List Of .java files That You Could Compile.
+When I Was New To Java I Had Difficulty in opening Command Prompt, Going To Directory And Then Compiling My Newly Made Files.So, I Created This Batch File Program. It Simply Goes To The Directory Where The Program Is Being Executed And Gives A List Of .java files That You Could Compile.
 The Program Works With two Python compiled Files ( Filename_class.py and Filename_java.py ) that I Have included in this Repository.
 
 ## Pre requisite
@@ -15,6 +15,6 @@ The Program Works With two Python compiled Files ( Filename_class.py and Filenam
 5.Click the 'Environment variables' button under the 'Advanced' tab.
 6.Now, alter the 'Path' variable so that it also contains the path to the Java executable. Example, if the path is currently set to 'C:\WINDOWS\SYSTEM32', then change your path to read 'C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin'.
 7.Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory.
-8.The Files Are Designed In such a way that the default directory in which they search for java programs is('C:\JavaProgs'), just change the default directory in all three programs to folder where you keep your files.
+8.The Files Are Designed In such a way that they Search For All the .java And .class files and runs them.
 
 ## Happy Compiling
