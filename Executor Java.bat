@@ -11,11 +11,14 @@ javac %input%.java
 ECHO Name Of Python Executable Class Present In Folder Are:
 python Filename_class.py
 set /p "input=Enter The Class You Want To Run:"
+color 0A
 ECHO ===============================
 ECHO OUTPUT:
 ECHO ===============================
 java %input%
+ECHO.
 ECHO ===============================
+color 0F
 pause
 ECHO =======================================================
 ECHO *******************************************************
