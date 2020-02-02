@@ -8,7 +8,7 @@ ECHO Name Of Java Executable Files Present In Folder Are:
 python Filename_java.py
 set /p "input=Enter The File You Want To Execute:"
 javac %input%.java
-ECHO Name Of Python Executable Class Present In Folder Are:
+ECHO Name Of Java Executable Class Present In Folder Are:
 python Filename_class.py
 set /p "input=Enter The Class You Want To Run:"
 color 0A
