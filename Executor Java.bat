@@ -4,6 +4,7 @@ ECHO                                                         -Garvit Joshi(garvi
 ECHO                                                          USER:%USERNAME%
 cd %cd% 
 :first
+ECHO Looking For Files In Directory:%cd%
 ECHO Name Of Java Executable Files Present In Folder Are:
 python Filename_java.py
 set /p "input=Enter The File You Want To Execute:"
