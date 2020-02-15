@@ -19,3 +19,4 @@ for file in glob.glob("*.class"):
 	count=count+1
 file1.write("==============================\n")
 file1.write("******************************")
+print("")
