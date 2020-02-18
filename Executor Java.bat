@@ -3,9 +3,9 @@ color F0
 ECHO                                        WELCOME TO EXECUTOR
 ECHO                                                         -Garvit Joshi(garvitjoshi9@gmail.com)
 ECHO                                                          USER:%USERNAME%
-cd %cd% 
+cd /d "%~dp0"
 :first
-ECHO LOOKING FOR FILES IN:%cd%
+ECHO LOOKING FOR FILES IN:"%~dp0"
 color F0
 ECHO Name Of Java Executable Files Present In Folder Are:
 python Filename_java.py
