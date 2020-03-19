@@ -1,9 +1,6 @@
 @ECHO OFF
 ECHO                                        WELCOME TO EXECUTOR
 ECHO                                                         -Garvit Joshi(garvitjoshi9@gmail.com)
-@ECHO OFF
-ECHO                                        WELCOME TO EXECUTOR
-ECHO                                                         -Garvit Joshi(garvitjoshi9@gmail.com)
 ECHO                                                          USER:%USERNAME%
 cd /d "%~dp0"
 :first
