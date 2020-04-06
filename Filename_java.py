@@ -3,12 +3,9 @@ import sys
 a=sys.path
 count=0
 os.chdir(a[0])
-file1=open("List.txt","w")
 file2=open("Input.txt","w")
 i=1
 for file in glob.glob("*.java"):
-	file1.write(file)
-	file1.write("\n")
 	if(count%2==0):
 		print(i,".",file,end="")
 		g=str(i)
@@ -31,3 +28,4 @@ while flag==1:
 	if flag==1:
 		print("File Not Found!!\nPlease Enter Again:")
 file2.write(x)
+file2.close()
