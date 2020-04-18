@@ -17,4 +17,4 @@ The Program Works With two Python Files ( Filename_class.py and Filename_java.py
 7.Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory.
 8.The Files Are Designed In such a way that they Search For All the .java And .class files and runs them.
 
-## Happy Compiling
+### For Notepad++ Support please read the Support.md file.

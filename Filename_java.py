@@ -1,9 +1,10 @@
+#git-hub Link:https://github.com/garvit-joshi/Java_Executor
 import glob, os
 import sys
 a=sys.path
 count=0
 os.chdir(a[0])
-file2=open("Input.txt","w")
+ifile=open("Input.txt","w")
 i=1
 for file in glob.glob("*.java"):
 	if(count%2==0):
@@ -27,5 +28,5 @@ while flag==1:
 		i=i+1
 	if flag==1:
 		print("File Not Found!!\nPlease Enter Again:")
-file2.write(x)
-file2.close()
+ifile.write(x)
+ifile.close()
