@@ -1,4 +1,4 @@
-#git-hub Link:https://github.com/garvit-joshi/Java_Executor
+#GitHub Link:https://github.com/garvit-joshi/Java_Executor
 import glob, os
 import sys
 a=sys.path
