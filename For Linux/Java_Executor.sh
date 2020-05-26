@@ -1,6 +1,12 @@
-#!/bin/bash
-input="home/github/Java_Executor/Linux/Inout.txt"
-echo Welcome $USERNAME
+#!/bin/bashs
+echo WELCOME TO EXECUTOR
+echo                                                         -Garvit Joshi\(garvitjoshi9@gmail.com\)
+echo                                                          USER:$USERNAME
 python3 Filename_java.py
-python3 Filename_class.py
+ls -l "Input.txt"
+filename="Input.txt"
+while IFS= read -r line
+do
+        echo "$line"
+done <"$filename"
 exit
