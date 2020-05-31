@@ -31,4 +31,5 @@ while flag==1:
 		print("File Not Found!!\nPlease Enter Again:")
 x= x[:-6]
 ifile.write(x)
+ifile.write("\n");
 ifile.close()

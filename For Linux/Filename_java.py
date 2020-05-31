@@ -29,4 +29,5 @@ while flag==1:
 	if flag==1:
 		print("File Not Found!!\nPlease Enter Again:")
 ifile.write(x)
+ifile.write("\n");
 ifile.close()
