@@ -3,6 +3,11 @@ REM GitHub Link:https://github.com/garvit-joshi/Java_Executor
 ECHO                                        WELCOME TO EXECUTOR
 ECHO                                                         -Garvit Joshi(garvitjoshi9@gmail.com)
 ECHO                                                          USER:%USERNAME%
+echo.
+ECHO java version installed:
+ECHO -------------------------------------------------------------------------
+java --version
+ECHO -------------------------------------------------------------------------
 cd /d "%~dp0"
 :first
 ECHO LOOKING FOR FILES IN:"%~dp0"
