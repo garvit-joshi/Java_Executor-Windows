@@ -15,4 +15,4 @@ The program works with two Python Files ( Filename_class.py and Filename_java.py
 8. The Files Are Designed In such a way that they Search For All the .java And .class files and runs them.<br>
 
 ### For Notepad++ Support
-[Support.md](Support.md)
+[Read Support.md](Support.md)
