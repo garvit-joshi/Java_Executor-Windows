@@ -11,7 +11,7 @@ The program works with two Python Files ( Filename_class.py and Filename_java.py
 ## Steps:
 1. Install [Python](https://www.python.org/downloads/), when installing Python check the box with "Add Python To PATH".<br>
 2. Installl Java
-7. Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory.<br>
+7. Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory.[Example](Screenshots/3.Files.PNG)<img src =Screenshots/3.Files.PNG width="650" height="350" alt="Files in an java folder"> <br>
 8. The Files Are Designed In such a way that they Search For All the .java And .class files and runs them.<br>
 
 ### For Notepad++ Support
