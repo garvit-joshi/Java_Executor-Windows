@@ -40,5 +40,6 @@ do
 	echo "-------------------------------"
 	echo "-------------------------------"
 	read -p "Press [Enter] key to continue..." readEnterKey
+	clear
 done
 exit
