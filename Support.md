@@ -1,5 +1,6 @@
 # Support To Notepad++
-1. After Installing Notepad++, goto C:\Users\\%USERNAME%\AppData\Roaming\Notepad++\shortcuts.xml [Path](Screenshots/1.Path.PNG)<br>
+1. After Installing Notepad++, goto ```C:\Users\\%USERNAME%\AppData\Roaming\Notepad++\shortcuts.xml``` 
+[Path](Screenshots/1.Path.PNG)<br>
 <img src =Screenshots/1.Path.PNG width="650" height="350" alt="Path"><br>
 2. Add A Line inside ```<UserDefinedCommands> </UserDefinedCommands> ``` <br>
 Line: ``` <Command name="Java_Executor" Ctrl="no" Alt="no" Shift="no" Key="117">cmd /k cd $(CURRENT_DIRECTORY) &amp;&amp; &quot;$(CURRENT_DIRECTORY)/Executor_Java.bat&quot;</Command> ``` [Line](Screenshots/2.shortcuts.xml.PNG) <img src =Screenshots/2.shortcuts.xml.PNG width="650" height="350" alt="Shortcuts.xml File"> <br>
