@@ -14,6 +14,6 @@ jobs:
         architecture: 'x64'
     - name: build
       run: |
-        python3 --version
+        python --version
         python Filename_class.py
         python Filename_java.py
