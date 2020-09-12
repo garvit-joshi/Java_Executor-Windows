@@ -1,0 +1,19 @@
+name: PythonTest
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2.3.2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8.5'
+        architecture: 'x64'
+    - name: build
+      run: |
+        python3 --version
+        python Filename_class.py
+        python Filename_java.py
