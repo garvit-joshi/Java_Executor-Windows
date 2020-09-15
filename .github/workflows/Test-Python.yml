@@ -15,5 +15,6 @@ jobs:
     - name: build
       run: |
         python --version
+        pip3 install pylint
         pylint Filename_class.py
         pylint Filename_java.py
