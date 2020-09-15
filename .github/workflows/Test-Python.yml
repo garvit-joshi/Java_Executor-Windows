@@ -15,5 +15,5 @@ jobs:
     - name: build
       run: |
         python --version
-        python Filename_class.py
-        python Filename_java.py
+        pylint Filename_class.py
+        pylint Filename_java.py
