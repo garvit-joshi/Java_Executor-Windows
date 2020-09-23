@@ -6,14 +6,14 @@ ECHO                                                          USER:%USERNAME%
 echo.
 ECHO java version installed:
 ECHO -------------------------------------------------------------------------
-java --version
+java -version
 ECHO -------------------------------------------------------------------------
 cd /d "%~dp0"
 :first
 ECHO LOOKING FOR FILES IN:"%~dp0"
 echo.
 ECHO Name Of Java Executable Files Present In Folder Are:
-python Filename_java.py
+python filename_java.py
 set /p inp1=<Input.txt
 echo.
 ECHO =====================================================================================================================
@@ -21,7 +21,7 @@ javac %inp1%
 ECHO =====================================================================================================================
 echo.
 ECHO Name Of Java Executable Class Present In Folder Are:
-python Filename_class.py
+python filename_class.py
 set /p inp2=<Input.txt
 echo.
 ECHO =====================================================================================================================

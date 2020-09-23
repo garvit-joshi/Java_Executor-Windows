@@ -1,5 +1,5 @@
 '''
-	Java Executor-Executes Java files with simplicity
+    Java Executor-Executes Java files with simplicity
     Copyright (C) 2020  Garvit Joshi
 
     This program is free software; you can redistribute it and/or modify
@@ -16,38 +16,33 @@
     with this program; if not, write to the Free Software Foundation, Inc.,
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 '''
-#GitHub Link:https://github.com/garvit-joshi/Java_Executor-Windows
-import glob, os
-import sys
-a=sys.path
-count=0
-l=0
-os.chdir(a[0])
+#GitHub Link: https://github.com/garvit-joshi/Java_Executor-Windows
+import glob
+COUNT=0
 ifile=open("Input.txt","w")
-i=1
-for file in glob.glob("*.class"):
-	if(count%2==0):
-		print(i,".",file,end="")
-		g=str(i)
-		l=len(file)+len(g)
-	else:
-		print("".rjust(40-l,' '),i,".",file)
-	i=i+1
-	count=count+1
+SERIAL_NO=1
+for file in glob.glob("*.java"):
+    if COUNT%2==0:
+        print(SERIAL_NO,".",file,end="")
+        SERIAL_LENGTH=str(SERIAL_NO)
+        WORD_LENGTH=len(file)+len(SERIAL_LENGTH)
+    else:
+        print("".rjust(40-WORD_LENGTH,' '),SERIAL_NO,".",file)
+    SERIAL_NO = SERIAL_NO + 1
+    COUNT = COUNT + 1
 print("")
-flag=1
-while flag==1:
-	f=int(input("Enter The File No. You Want To Execute:"))
-	i=1
-	for file in glob.glob("*.class"):
-		if(i==f):
-			flag=0
-			x=file
-			break
-		i=i+1
-	if flag==1:
-		print("File Not Found!!\nPlease Enter Again:")
-x= x[:-6]
-ifile.write(x)
+FLAG=1
+while FLAG==1:
+    FILE_NAME=int(input("Enter The File No. You Want To Execute:"))
+    SERIAL_NO=1
+    for file in glob.glob("*.java"):
+        if SERIAL_NO==FILE_NAME:
+            FLAG=0
+            FILE_NAME=file
+            break
+        SERIAL_NO = SERIAL_NO + 1
+    if FLAG==1:
+        print("File Not Found!!\nPlease Enter Again:")
+ifile.write(FILE_NAME)
 ifile.write("\n")
 ifile.close()
