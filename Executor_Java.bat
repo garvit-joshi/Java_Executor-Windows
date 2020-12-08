@@ -1,10 +1,10 @@
 @ECHO OFF
 REM GitHub Link:https://github.com/garvit-joshi/Java_Executor-Windows
-ECHO                                        WELCOME TO EXECUTOR
-ECHO                                                         -Garvit Joshi(garvitjoshi9@gmail.com)
-ECHO                                                          USER:%USERNAME%
+ECHO                                  WELCOME TO JAVA EXECUTOR
+ECHO                                                      -Garvit Joshi(garvitjoshi9@gmail.com)
+ECHO                                                       USER:%USERNAME%
 echo.
-ECHO java version installed:
+ECHO JAVA version installed:
 ECHO -------------------------------------------------------------------------
 java -version
 ECHO -------------------------------------------------------------------------
