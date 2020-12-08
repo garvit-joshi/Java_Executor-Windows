@@ -21,6 +21,7 @@ import glob
 COUNT=0
 ifile=open("Input.txt","w")
 SERIAL_NO=1
+WORD_LENGTH=10
 for file in glob.glob("*.class"):
     if COUNT%2==0:
         print(SERIAL_NO,".",file,end="")
@@ -32,6 +33,7 @@ for file in glob.glob("*.class"):
     COUNT=COUNT+1
 print("")
 FLAG=1
+FILE_NAME=-1
 while FLAG==1:
     FILE_NO=int(input("Enter The File No. You Want To Execute:"))
     SERIAL_NO=1
