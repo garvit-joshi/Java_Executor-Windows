@@ -3,6 +3,7 @@ REM GitHub Link:https://github.com/garvit-joshi/Java_Executor-Windows
 ECHO                                  WELCOME TO JAVA EXECUTOR
 ECHO                                                      -Garvit Joshi(garvitjoshi9@gmail.com)
 ECHO                                                       USER:%USERNAME%
+ECHO                                                       v: 1.2012.9+
 echo.
 ECHO JAVA version installed:
 ECHO -------------------------------------------------------------------------
@@ -10,6 +11,7 @@ java -version
 ECHO -------------------------------------------------------------------------
 cd /d "%~dp0"
 :first
+SET /A ErrorCode = 0
 ECHO LOOKING FOR FILES IN:"%~dp0"
 echo.
 ECHO Name Of Java Executable Files Present In Folder Are:
@@ -17,7 +19,11 @@ python filename_java.py
 set /p inp1=<Input.txt
 echo.
 ECHO =====================================================================================================================
-javac %inp1%
+IF NOT [%inp1%]==[] (
+    javac %inp1%
+    SET /A ErrorCode = %ERRORLEVEL%
+    ECHO ErrorCode: %ErrorCode%
+)
 ECHO =====================================================================================================================
 echo.
 ECHO Name Of Java Executable Class Present In Folder Are:
@@ -25,13 +31,21 @@ python filename_class.py
 set /p inp2=<Input.txt
 echo.
 ECHO =====================================================================================================================
-javac %inp1%
+IF NOT [%inp1%] == [] (
+    IF %ErrorCode% == 0 (
+        echo.
+    ) ELSE (
+        javac %inp1%
+    )
+)
 ECHO =====================================================================================================================
 echo.
 ECHO =====================================================================================================================
 ECHO OUTPUT:
 ECHO =====================================================================================================================
-java %inp2%
+IF NOT [%inp2%]==[] (
+    java %inp2%
+)
 ECHO =====================================================================================================================
 echo.
 pause
