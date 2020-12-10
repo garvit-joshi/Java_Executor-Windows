@@ -34,8 +34,12 @@ for file in glob.glob("*.java"):
 print("")
 FLAG=1
 FILE_NAME=-1
-while FLAG==1:
-    FILE_NAME=int(input("Enter The File No. You Want To Execute:"))
+while FLAG in (1,2):
+    try:
+        FILE_NAME=int(input("Enter The File No. You Want To Execute:"))
+    except ValueError:
+        print("Oops!  \nThat was no valid number.  \nTry again...")
+        FLAG=2
     SERIAL_NO=1
     for file in glob.glob("*.java"):
         if SERIAL_NO==FILE_NAME:
@@ -43,8 +47,9 @@ while FLAG==1:
             FILE_NAME=file
             break
         SERIAL_NO = SERIAL_NO + 1
+        FLAG=1
     if FLAG==1:
-        print("File Not Found!!\nPlease Enter Again:")
+        print("File Not Found!!\nPlease Try Again...")
 ifile.write(FILE_NAME)
 ifile.write("\n")
 ifile.close()
