@@ -10,10 +10,14 @@ The project is also available for [Linux User](https://github.com/garvit-joshi/J
 3. Python And Java Should Be Installed With Environment Variables.<br>
 
 ## Steps:
-1. Install [Python](https://www.python.org/downloads/), when installing Python check the box with "Add Python To PATH".<br>
-2. Installl Java
-7. Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory.[Example](Screenshots/3.Files.PNG) <br> <img src =Screenshots/3.Files.PNG width="650" height="350" alt="Files in an java folder"> <br>
-8. The Files Are Designed In such a way that they Search For All the .java And .class files and runs them. [Output](Screenshots/4.Output.PNG) <br> <img src =Screenshots/4.Output.PNG width="650" height="350" alt="Files in an java folder"> <br>
+
+1. Install [Python](https://www.python.org/downloads/), when installing Python check the box with ```Add Python To PATH```.
+
+2. Install Java
+
+3. Now just Make A Folder In your desired directory where you will keep all your java files And Put These Three Files In The Directory
+
+4. The Files Are Designed In such a way that they Search For All the .java And .class files and runs them.
 
 ### For Notepad++ Support
 [Read Support.md](Support.md)
