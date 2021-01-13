@@ -1,6 +1,6 @@
 '''
     Java Executor-Executes Java files with simplicity
-    Copyright (C) 2020  Garvit Joshi
+    Copyright (C) 2021  Garvit Joshi
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
