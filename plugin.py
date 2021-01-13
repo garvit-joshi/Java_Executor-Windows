@@ -22,7 +22,7 @@ UserName = os.getlogin()
 path = os.path.join('C:\\','Users',UserName,'AppData','Roaming','Notepad++','shortcuts.xml')
 try:
     os.remove(path)
-    shutil.copyfile(r'./assets/shortcuts.xml',path)
+    shutil.copyfile(r'./assets/shortcudts.xml',path)
     print(">>> Plugin Installed <<<")
 except FileNotFoundError as fnf:
-    print("Please Check if Notepad++ is Installed, {fnf}")
+    print(f"Please Check if Notepad++ is Installed: \n{fnf}")
